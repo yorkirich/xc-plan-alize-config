@@ -12,7 +12,7 @@
     "localDbName": "xcPlanAlyze",
     "localStoreName":"exernalData",
     "triangleAssistantDistance": "100",
-    "overlayTransition": "blend",
+    "overlayTransition": "block",
     "maxVerticalSpeedThreshold": 50,
     "maxSimultaneousReplay": 10,
     "maxCacheSize": 25,

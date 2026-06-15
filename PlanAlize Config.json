@@ -1,6 +1,6 @@
 {
   "appSettings": {
-    "trimAirspeed": 38,
+    "trimAirspeed": 68,
     "planAccelerator": 70,
     "initialOverlayOpacity": 0.5,
     "minDate": "2024-01-01",

@@ -10,8 +10,8 @@
     "defaultCountry": "UK",
     "airspaceFileRetention": 30,
     "localDbName": "xcPlanAlyze",
-    "localStoreName": "exernalData",
-    "triangleAssistantDistance": "100",
+    "localStoreName": "externalData",
+    "triangleAssistantDistance": 100,
     "overlayTransition": "blend",
     "maxVerticalSpeedThreshold": 50,
     "maxSimultaneousReplay": 10,
@@ -22,52 +22,6 @@
       "altitude": "ft",
       "vario": "ms",
       "wind": "kmh"
-    },
-    "airspace": {
-      "hideThreshold": 5000,
-      "filterThreshold": 10000,
-      "fillOpacityDefault": 0.4,
-      "fillColour": "red",
-      "states": [
-        "A",
-        "A5",
-        "A4"
-      ],
-      "filterSettings": {
-        "types": {
-          "ATZ": true,
-          "CTA": true,
-          "CTR": true,
-          "D": true,
-          "D_OTHER": true,
-          "OTHER": false,
-          "P": true,
-          "R": true,
-          "TMA": true
-        },
-        "classes": {
-          "A": true,
-          "C": true,
-          "D": true,
-          "E": true,
-          "G": true,
-          "N/A": false
-        },
-        "localtypes": {
-          "DZ": true,
-          "GLIDER": false,
-          "GVS": false,
-          "HIRTA": false,
-          "ILS": false,
-          "LASER": false,
-          "MATZ": true,
-          "N/A": true,
-          "NOATZ": true,
-          "RMZ": true,
-          "TMZ": true,
-          "UL": false
-        }
-      }
     },
     "validFileTypes": [
       ".igc",
@@ -361,7 +315,7 @@
           0.44
         ]
       ]
-    ],
+    },
     "cropSettings": {
       "date": {
         "l": 717,

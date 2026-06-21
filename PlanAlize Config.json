@@ -17,6 +17,9 @@
     "maxSimultaneousReplay": 10,
     "maxCacheSize": 25,
     "weatherCacheAgeThresholdSeconds": 3600,
+    "validFileTypes": [".igc", ".xctsk", ".txt"],
+    "batchSize": 100,
+    "lowAltitudeThresholdM": 100,
     "currentUnits": { 
       "distance": "km", 
       "speed": "kmh", 

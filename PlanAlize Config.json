@@ -16,6 +16,7 @@
     "maxVerticalSpeedThreshold": 50,
     "maxSimultaneousReplay": 10,
     "maxCacheSize": 25,
+    "weatherCacheAgeThresholdSeconds": 3600,
     "currentUnits": { 
       "distance": "km", 
       "speed": "kmh", 

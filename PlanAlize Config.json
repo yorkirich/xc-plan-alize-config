@@ -6,7 +6,6 @@
     "minDate": "2024-01-01",
     "routeVisualMode": 0,
     "railStationAmberThreshold": 10000,
-    "weatherkey": "0A4RQ7XC",
     "defaultCountry": "UK",
     "airspaceFileRetention": 30,
     "localDbName": "xcPlanAlyze",
@@ -123,18 +122,6 @@
       { "id": "950", "label": "950mb", "isDefault": false, "includeInAverage": true },
       { "id": "1000", "label": "1000mb", "isDefault": false, "includeInAverage": false }
     ]
-  },
-  "airspace": {
-    "hideThreshold": 5000,
-    "filterThreshold": 10000,
-    "fillOpacityDefault": 0.4,
-    "fillColour": "red",
-    "states": ["A", "A5", "A4"],
-    "filterSettings": {
-      "types": { "ATZ": true, "CTA": true, "CTR": true, "D": true, "D_OTHER": true, "OTHER": false, "P": true, "R": true, "TMA": true },
-      "classes": { "A": true, "C": true, "D": true, "E": true, "G": true, "N/A": false },
-      "localtypes": { "DZ": true, "GLIDER": false, "GVS": false, "HIRTA": false, "ILS": false, "LASER": false, "MATZ": true, "N/A": true, "NOATZ": true, "RMZ": true, "TMZ": true, "UL": false }
-    }
   },
   "rasp": {
     "defaultRepository": "cdn19",

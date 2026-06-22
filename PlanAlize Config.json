@@ -3,34 +3,31 @@
     "trimAirspeed": 37,
     "planAccelerator": 70,
     "initialOverlayOpacity": 0.5,
-    "minDate": "2024-01-01",
     "routeVisualMode": 0,
     "railStationAmberThreshold": 10000,
     "defaultCountry": "UK",
     "airspaceFileRetention": 30,
-    "localDbName": "xcPlanAlyze",
-    "localStoreName":"exernalData",
     "triangleAssistantDistance": "100",
     "overlayTransition": "blend",
     "maxVerticalSpeedThreshold": 50,
     "maxSimultaneousReplay": 10,
     "maxCacheSize": 25,
     "weatherCacheAgeThresholdSeconds": 3600,
-    "validFileTypes": [".igc", ".xctsk", ".txt"],
-    "batchSize": 100,
     "lowAltitudeThresholdM": 100,
-    "currentUnits": { 
-      "distance": "km", 
-      "speed": "kmh", 
-      "altitude": "ft", 
-      "vario": "ms", 
-      "wind": "kmh" 
+    "windAmberThreshold": 20,
+    "windRedThreshold": 30,
+    "currentUnits": {
+      "distance": "km",
+      "speed": "kmh",
+      "altitude": "ft",
+      "vario": "ms",
+      "wind": "kmh"
     },
     "airspace": {
       "hideThreshold": 5000,
       "filterThreshold": 10000,
       "fillOpacityDefault": 0.4,
-      "fillColour": "red",
+      "fillColour": "#ff0000",
       "states": ["A", "A5", "A4"],
       "filterSettings": {
         "types": { "ATZ": true, "CTA": true, "CTR": true, "D": true, "D_OTHER": true, "OTHER": false, "P": true, "R": true, "TMA": true },
@@ -38,6 +35,13 @@
         "localtypes": { "DZ": true, "GLIDER": false, "GVS": false, "HIRTA": false, "ILS": false, "LASER": false, "MATZ": true, "N/A": true, "NOATZ": true, "RMZ": true, "TMZ": true, "UL": false }
       }
     }
+  },
+  "systemSettings": {
+    "minDate": "2024-01-01",
+    "validFileTypes": [".igc", ".xctsk", ".txt"],
+    "localDbName": "xcPlanAlyze",
+    "localStoreName": "exernalData",
+    "batchSize": 100
   },
   "terrain": {
     "terrariumUrl": "https://elevation-data-proxy.richard-meek64.workers.dev/terrarium/{z}/{x}/{y}.png"

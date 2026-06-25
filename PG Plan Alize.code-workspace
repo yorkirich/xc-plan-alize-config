@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../PG Plan Alize"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PG Plan Alize"
+	}
+}

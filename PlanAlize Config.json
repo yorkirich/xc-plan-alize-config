@@ -1,6 +1,7 @@
 {
   "appSettings": {
     "trimAirspeed": 37,
+    "intensityExponent": 2.0,
     "planAccelerator": 70,
     "initialOverlayOpacity": 0.5,
     "routeVisualMode": 0,

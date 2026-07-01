@@ -29,17 +29,55 @@
       "filterThreshold": 10000,
       "fillOpacityDefault": 0.4,
       "fillColour": "#ff0000",
-      "states": ["A", "A5", "A4"],
+      "states": [
+        "A",
+        "A5",
+        "A4"
+      ],
       "filterSettings": {
-        "types": { "ATZ": true, "CTA": true, "CTR": true, "D": true, "D_OTHER": true, "OTHER": false, "P": true, "R": true, "TMA": true },
-        "classes": { "A": true, "C": true, "D": true, "E": true, "G": true, "N/A": false },
-        "localtypes": { "DZ": true, "GLIDER": false, "GVS": false, "HIRTA": false, "ILS": false, "LASER": false, "MATZ": true, "N/A": true, "NOATZ": true, "RMZ": true, "TMZ": true, "UL": false }
+        "types": {
+          "ATZ": true,
+          "CTA": true,
+          "CTR": true,
+          "D": true,
+          "D_OTHER": true,
+          "OTHER": false,
+          "P": true,
+          "R": true,
+          "TMA": true
+        },
+        "classes": {
+          "A": true,
+          "C": true,
+          "D": true,
+          "E": true,
+          "G": true,
+          "N/A": false
+        },
+        "localtypes": {
+          "DZ": true,
+          "GLIDER": false,
+          "GVS": false,
+          "HIRTA": false,
+          "ILS": false,
+          "LASER": false,
+          "MATZ": true,
+          "N/A": true,
+          "NOATZ": true,
+          "RMZ": true,
+          "TMZ": true,
+          "UL": false
+        }
       }
     }
   },
   "systemSettings": {
     "minDate": "2024-01-01",
-    "validFileTypes": [".igc", ".xctsk", ".txt"],
+    "validFileTypes": [
+      ".igc",
+      ".xctsk",
+      ".txt"
+    ],
     "localDbName": "xcPlanAlyze",
     "localStoreName": "exernalData",
     "batchSize": 100
@@ -97,98 +135,534 @@
     "UK": {
       "label": "United Kingdom",
       "monthlyDefaults": [
-        { "month": "Jan", "start": "11:30", "duration": 4.5 },
-        { "month": "Feb", "start": "11:30", "duration": 5.25 },
-        { "month": "Mar", "start": "11:15", "duration": 6.0 },
-        { "month": "Apr", "start": "11:00", "duration": 6.75 },
-        { "month": "May", "start": "10:45", "duration": 7.75 },
-        { "month": "Jun", "start": "10:30", "duration": 9.25 },
-        { "month": "Jul", "start": "10:30", "duration": 9.25 },
-        { "month": "Aug", "start": "10:45", "duration": 8.5 },
-        { "month": "Sep", "start": "11:00", "duration": 8.0 },
-        { "month": "Oct", "start": "11:30", "duration": 6.0 },
-        { "month": "Nov", "start": "11:30", "duration": 5.0 },
-        { "month": "Dec", "start": "11:30", "duration": 4.0 }
+        {
+          "month": "Jan",
+          "start": "11:30",
+          "duration": 4.5
+        },
+        {
+          "month": "Feb",
+          "start": "11:30",
+          "duration": 5.25
+        },
+        {
+          "month": "Mar",
+          "start": "11:15",
+          "duration": 6.0
+        },
+        {
+          "month": "Apr",
+          "start": "11:00",
+          "duration": 6.75
+        },
+        {
+          "month": "May",
+          "start": "10:45",
+          "duration": 7.75
+        },
+        {
+          "month": "Jun",
+          "start": "10:30",
+          "duration": 9.25
+        },
+        {
+          "month": "Jul",
+          "start": "10:30",
+          "duration": 9.25
+        },
+        {
+          "month": "Aug",
+          "start": "10:45",
+          "duration": 8.5
+        },
+        {
+          "month": "Sep",
+          "start": "11:00",
+          "duration": 8.0
+        },
+        {
+          "month": "Oct",
+          "start": "11:30",
+          "duration": 6.0
+        },
+        {
+          "month": "Nov",
+          "start": "11:30",
+          "duration": 5.0
+        },
+        {
+          "month": "Dec",
+          "start": "11:30",
+          "duration": 4.0
+        }
       ]
     }
   },
   "weather": {
     "forecastModels": [
-      { "id": "gfs_seamless", "label": "GFS" },
-      { "id": "ukmo_seamless", "label": "UKV" },
-      { "id": "best_match", "label": "Best Match" },
-      { "id": "icon_seamless", "label": "DWD-ICON" }
+      {
+        "id": "gfs_seamless",
+        "label": "GFS"
+      },
+      {
+        "id": "ukmo_seamless",
+        "label": "UKV"
+      },
+      {
+        "id": "best_match",
+        "label": "Best Match"
+      },
+      {
+        "id": "icon_seamless",
+        "label": "DWD-ICON"
+      }
     ],
     "pressureLevels": [
-      { "id": "Average", "label": "Average", "isDefault": true, "includeInAverage": false },
-      { "id": "750", "label": "750mb", "isDefault": false, "includeInAverage": false },
-      { "id": "800", "label": "800mb", "isDefault": false, "includeInAverage": false },
-      { "id": "850", "label": "850mb", "isDefault": false, "includeInAverage": true },
-      { "id": "950", "label": "950mb", "isDefault": false, "includeInAverage": true },
-      { "id": "1000", "label": "1000mb", "isDefault": false, "includeInAverage": false }
+      {
+        "id": "Average",
+        "label": "Average",
+        "isDefault": true,
+        "includeInAverage": false
+      },
+      {
+        "id": "750",
+        "label": "750mb",
+        "isDefault": false,
+        "includeInAverage": false
+      },
+      {
+        "id": "800",
+        "label": "800mb",
+        "isDefault": false,
+        "includeInAverage": false
+      },
+      {
+        "id": "850",
+        "label": "850mb",
+        "isDefault": false,
+        "includeInAverage": true
+      },
+      {
+        "id": "950",
+        "label": "950mb",
+        "isDefault": false,
+        "includeInAverage": true
+      },
+      {
+        "id": "1000",
+        "label": "1000mb",
+        "isDefault": false,
+        "includeInAverage": false
+      }
     ]
   },
   "rasp": {
     "defaultRepository": "cdn19",
     "defaultResolution": "UK2",
     "bounds": {
-      "UK12": [[48.83, -11.6], [59.75, 3.26]],
-      "UK4": [[49.4, -11], [59.6, 2.78]],
-      "UK2": [[49.44, -10.72], [59.35, 2.78]],
-      "UKGW1": [[51.57, -4.71], [53.43, -2.61]],
-      "UKGM": [[54.9, -6.7], [58.95, -0.78]],
-      "UKN1": [[52.77, -4.39], [56.085, 0.44]]
+      "UK12": [
+        [
+          48.83,
+          -11.6
+        ],
+        [
+          59.75,
+          3.26
+        ]
+      ],
+      "UK4": [
+        [
+          49.4,
+          -11
+        ],
+        [
+          59.6,
+          2.78
+        ]
+      ],
+      "UK2": [
+        [
+          49.44,
+          -10.72
+        ],
+        [
+          59.35,
+          2.78
+        ]
+      ],
+      "UKGW1": [
+        [
+          51.57,
+          -4.71
+        ],
+        [
+          53.43,
+          -2.61
+        ]
+      ],
+      "UKGM": [
+        [
+          54.9,
+          -6.7
+        ],
+        [
+          58.95,
+          -0.78
+        ]
+      ],
+      "UKN1": [
+        [
+          52.77,
+          -4.39
+        ],
+        [
+          56.085,
+          0.44
+        ]
+      ],
+      "UKS1": [
+        [
+          50.50,
+          -2.96
+        ],
+        [
+          53.92,
+          1.85
+        ]
+      ]
     },
     "cropSettings": {
-      "date": { "l": 717, "t": 71, "w": 276, "h": 35 },
-      "time": { "l": 468, "t": 71, "w": 244, "h": 30 },
-      "forecast": { "l": 998, "t": 71, "w": 215, "h": 30 },
-      "name": { "l": 435, "t": 28, "w": 730, "h": 40 }
+      "date": {
+        "l": 717,
+        "t": 71,
+        "w": 276,
+        "h": 35
+      },
+      "time": {
+        "l": 468,
+        "t": 71,
+        "w": 244,
+        "h": 30
+      },
+      "forecast": {
+        "l": 998,
+        "t": 71,
+        "w": 215,
+        "h": 30
+      },
+      "name": {
+        "l": 435,
+        "t": 28,
+        "w": 730,
+        "h": 40
+      }
     },
     "overlays": {
-      "RES": { "label": "UK2", "desc": "Forecast Resolution", "pinned": true, "position": 0, "fixed": true, "action": "CYCLERES" },
-      "Z": { "label": "Z", "desc": "RASP Stars", "file": "stars", "pinned": true, "position": 2 },
-      "S": { "label": "S", "desc": "Surface Wind 10m", "file": "sfcwind", "pinned": true, "position": 3 },
-      "W": { "label": "W", "desc": "Boundary Layer Average Wind", "file": "blwind", "pinned": true, "position": 4 },
-      "C": { "label": "C", "desc": "Cumulus Cloudbase", "file": "zsfclclmask", "pinned": true, "position": 5},
-      "N": { "label": "N", "desc": "Normalised Surface Solar Radiation", "file": "sfcsunpct", "pinned": true, "position": 6 },
-      "R": { "label": "R", "desc": "Rain", "file": "rain1", "pinned": true, "position": 7 },
-      "B": { "label": "B", "desc": "Convergence", "file": "wblmaxmin", "pinned": true, "position": 8 },
-      " ": { "label": " ", "desc": "no overlay", "file": "none", "pinned": true, "position": 9, "fixed": true },
-      "...": { "label": "...", "desc": "more layers", "file": "none", "pinned": true, "position": 10, "fixed": true },
-      "T": { "label": "T", "desc": "Thermal Strength", "file": "wstar", "pinned": false, "position": 11},
-      "H": { "label": "H", "desc": "Glider Thermalling Height", "file": "hglider", "pinned": false, "position": 12 },
-      "O": { "label": "O", "desc": "OD Cloudbase", "file": "zblclmask", "pinned": false, "position": 13 },
-      "WT": { "label": "WT", "desc": "Wind at BL Top", "file": "bltopwind", "pinned": false, "position": 14 },
-      "WS": { "label": "WS", "desc": "BL Wind Shear", "file": "blwindshear", "pinned": false, "position": 15 },
-      "CP": { "label": "CP", "desc": "Cu Potential", "file": "zsfclcldif", "pinned": false, "position": 16 },
-      "CB": { "label": "CB", "desc": "Cu Cloudbase (Sfc.LCL) MSL", "file": "zsfclcl", "pinned": false, "position": 17 },
-      "OP": { "label": "OP", "desc": "OD Potential", "file": "zblcldif", "pinned": false, "position": 18 },
-      "OB": { "label": "OB", "desc": "OD Cloudbase (BL CL) MSL", "file": "zblcl", "pinned": false, "position": 19 },
-      "BW": { "label": "BW", "desc": "BL Cld-Base if CloudWater predicted", "file": "blcwbase", "pinned": false, "position": 20 },
-      "BC": { "label": "BC", "desc": "BL Cloud Cover", "file": "blcloudpct", "pinned": false, "position": 21 },
-      "CA": { "label": "CA", "desc": "CAPE", "file": "cape", "pinned": false, "position": 22 },
-      "IW": { "label": "IW", "desc": "BL Integrated Cloud Water", "file": "blicw", "pinned": false, "position": 23 },
-      "VX": { "label": "VX", "desc": "Vertical Velocity at 1000mb", "file": "press1000", "pinned": false, "position": 24 },
-      "V9": { "label": "V9", "desc": "Vertical Velocity at 950mb", "file": "press950", "pinned": false, "position": 25 },
-      "V8": { "label": "V8", "desc": "Vertical Velocity at 850mb", "file": "press850", "pinned": false, "position": 26 },
-      "V7": { "label": "V7", "desc": "Vertical Velocity at 700mb", "file": "press700", "pinned": false, "position": 27 },
-      "V5": { "label": "V5", "desc": "Vertical Velocity at 500mb", "file": "press500", "pinned": false, "position": 28 },
-      "TB": { "label": "TB", "desc": "Thermal Updraft Velocity & B/S Ratio", "file": "wstar_bsratio", "pinned": false, "position": 29 },
-      "BS": { "label": "BS", "desc": "Buoyancy/Shear Ratio", "file": "bsratio", "pinned": false, "position": 30 },
-      "HC": { "label": "HC", "desc": "Ht of Critical Updraft Strength (175fpm)", "file": "experimental1", "pinned": false, "position": 31 },
-      "DC": { "label": "DC", "desc": "Depth of Critical Updraft Strength (AGL Hcrit)", "file": "dwcrit", "pinned": false, "position": 32 },
-      "BT": { "label": "BT", "desc": "BL Top", "file": "hbl", "pinned": false, "position": 33 },
-      "BD": { "label": "BD", "desc": "BL Depth", "file": "dbl", "pinned": false, "position": 34 },
-      "HU": { "label": "HU", "desc": "Thermal Height Uncertainty", "file": "bltopvariab", "pinned": false, "position": 35 },
-      "HS": { "label": "HS", "desc": "Ht of Critical Updraft Strength (225fpm)", "file": "hwcrit", "pinned": false, "position": 36 },
-      "HW": { "label": "HW", "desc": "MSL Height of max/min Wbl", "file": "zwblmaxmin", "pinned": false, "position": 37 },
-      "SH": { "label": "SH", "desc": "Surface Heating", "file": "sfcshf", "pinned": false, "position": 38 },
-      "ST": { "label": "ST", "desc": "Sfc. Temperature", "file": "sfctemp", "pinned": false, "position": 39 },
-      "SD": { "label": "SD", "desc": "Sfc. Dew Point", "file": "sfcdewpt", "pinned": false, "position": 40 },
-      "PR": { "label": "PR", "desc": "MSL Pressure", "file": "mslpress", "pinned": false, "position": 41 },
-      "S2": { "label": "S2", "desc": "Sfc. Wind (2m)", "file": "sfcwind0", "pinned": false, "position": 42 },
-      "REP": { "label": "19", "desc": "Repository", "pinned": false, "position": 43, "fixed": false, "action": "FLIPREP" }
+      "RES": {
+        "label": "UK2",
+        "desc": "Forecast Resolution",
+        "pinned": true,
+        "position": 0,
+        "fixed": true,
+        "action": "CYCLERES"
+      },
+      "Z": {
+        "label": "Z",
+        "desc": "RASP Stars",
+        "file": "stars",
+        "pinned": true,
+        "position": 2
+      },
+      "S": {
+        "label": "S",
+        "desc": "Surface Wind 10m",
+        "file": "sfcwind",
+        "pinned": true,
+        "position": 3
+      },
+      "W": {
+        "label": "W",
+        "desc": "Boundary Layer Average Wind",
+        "file": "blwind",
+        "pinned": true,
+        "position": 4
+      },
+      "C": {
+        "label": "C",
+        "desc": "Cumulus Cloudbase",
+        "file": "zsfclclmask",
+        "pinned": true,
+        "position": 5
+      },
+      "N": {
+        "label": "N",
+        "desc": "Normalised Surface Solar Radiation",
+        "file": "sfcsunpct",
+        "pinned": true,
+        "position": 6
+      },
+      "R": {
+        "label": "R",
+        "desc": "Rain",
+        "file": "rain1",
+        "pinned": true,
+        "position": 7
+      },
+      "B": {
+        "label": "B",
+        "desc": "Convergence",
+        "file": "wblmaxmin",
+        "pinned": true,
+        "position": 8
+      },
+      " ": {
+        "label": " ",
+        "desc": "no overlay",
+        "file": "none",
+        "pinned": true,
+        "position": 9,
+        "fixed": true
+      },
+      "...": {
+        "label": "...",
+        "desc": "more layers",
+        "file": "none",
+        "pinned": true,
+        "position": 10,
+        "fixed": true
+      },
+      "T": {
+        "label": "T",
+        "desc": "Thermal Strength",
+        "file": "wstar",
+        "pinned": false,
+        "position": 11
+      },
+      "H": {
+        "label": "H",
+        "desc": "Glider Thermalling Height",
+        "file": "hglider",
+        "pinned": false,
+        "position": 12
+      },
+      "O": {
+        "label": "O",
+        "desc": "OD Cloudbase",
+        "file": "zblclmask",
+        "pinned": false,
+        "position": 13
+      },
+      "WT": {
+        "label": "WT",
+        "desc": "Wind at BL Top",
+        "file": "bltopwind",
+        "pinned": false,
+        "position": 14
+      },
+      "WS": {
+        "label": "WS",
+        "desc": "BL Wind Shear",
+        "file": "blwindshear",
+        "pinned": false,
+        "position": 15
+      },
+      "CP": {
+        "label": "CP",
+        "desc": "Cu Potential",
+        "file": "zsfclcldif",
+        "pinned": false,
+        "position": 16
+      },
+      "CB": {
+        "label": "CB",
+        "desc": "Cu Cloudbase (Sfc.LCL) MSL",
+        "file": "zsfclcl",
+        "pinned": false,
+        "position": 17
+      },
+      "OP": {
+        "label": "OP",
+        "desc": "OD Potential",
+        "file": "zblcldif",
+        "pinned": false,
+        "position": 18
+      },
+      "OB": {
+        "label": "OB",
+        "desc": "OD Cloudbase (BL CL) MSL",
+        "file": "zblcl",
+        "pinned": false,
+        "position": 19
+      },
+      "BW": {
+        "label": "BW",
+        "desc": "BL Cld-Base if CloudWater predicted",
+        "file": "blcwbase",
+        "pinned": false,
+        "position": 20
+      },
+      "BC": {
+        "label": "BC",
+        "desc": "BL Cloud Cover",
+        "file": "blcloudpct",
+        "pinned": false,
+        "position": 21
+      },
+      "CA": {
+        "label": "CA",
+        "desc": "CAPE",
+        "file": "cape",
+        "pinned": false,
+        "position": 22
+      },
+      "IW": {
+        "label": "IW",
+        "desc": "BL Integrated Cloud Water",
+        "file": "blicw",
+        "pinned": false,
+        "position": 23
+      },
+      "VX": {
+        "label": "VX",
+        "desc": "Vertical Velocity at 1000mb",
+        "file": "press1000",
+        "pinned": false,
+        "position": 24
+      },
+      "V9": {
+        "label": "V9",
+        "desc": "Vertical Velocity at 950mb",
+        "file": "press950",
+        "pinned": false,
+        "position": 25
+      },
+      "V8": {
+        "label": "V8",
+        "desc": "Vertical Velocity at 850mb",
+        "file": "press850",
+        "pinned": false,
+        "position": 26
+      },
+      "V7": {
+        "label": "V7",
+        "desc": "Vertical Velocity at 700mb",
+        "file": "press700",
+        "pinned": false,
+        "position": 27
+      },
+      "V5": {
+        "label": "V5",
+        "desc": "Vertical Velocity at 500mb",
+        "file": "press500",
+        "pinned": false,
+        "position": 28
+      },
+      "TB": {
+        "label": "TB",
+        "desc": "Thermal Updraft Velocity & B/S Ratio",
+        "file": "wstar_bsratio",
+        "pinned": false,
+        "position": 29
+      },
+      "BS": {
+        "label": "BS",
+        "desc": "Buoyancy/Shear Ratio",
+        "file": "bsratio",
+        "pinned": false,
+        "position": 30
+      },
+      "HC": {
+        "label": "HC",
+        "desc": "Ht of Critical Updraft Strength (175fpm)",
+        "file": "experimental1",
+        "pinned": false,
+        "position": 31
+      },
+      "DC": {
+        "label": "DC",
+        "desc": "Depth of Critical Updraft Strength (AGL Hcrit)",
+        "file": "dwcrit",
+        "pinned": false,
+        "position": 32
+      },
+      "BT": {
+        "label": "BT",
+        "desc": "BL Top",
+        "file": "hbl",
+        "pinned": false,
+        "position": 33
+      },
+      "BD": {
+        "label": "BD",
+        "desc": "BL Depth",
+        "file": "dbl",
+        "pinned": false,
+        "position": 34
+      },
+      "HU": {
+        "label": "HU",
+        "desc": "Thermal Height Uncertainty",
+        "file": "bltopvariab",
+        "pinned": false,
+        "position": 35
+      },
+      "HS": {
+        "label": "HS",
+        "desc": "Ht of Critical Updraft Strength (225fpm)",
+        "file": "hwcrit",
+        "pinned": false,
+        "position": 36
+      },
+      "HW": {
+        "label": "HW",
+        "desc": "MSL Height of max/min Wbl",
+        "file": "zwblmaxmin",
+        "pinned": false,
+        "position": 37
+      },
+      "SH": {
+        "label": "SH",
+        "desc": "Surface Heating",
+        "file": "sfcshf",
+        "pinned": false,
+        "position": 38
+      },
+      "ST": {
+        "label": "ST",
+        "desc": "Sfc. Temperature",
+        "file": "sfctemp",
+        "pinned": false,
+        "position": 39
+      },
+      "SD": {
+        "label": "SD",
+        "desc": "Sfc. Dew Point",
+        "file": "sfcdewpt",
+        "pinned": false,
+        "position": 40
+      },
+      "PR": {
+        "label": "PR",
+        "desc": "MSL Pressure",
+        "file": "mslpress",
+        "pinned": false,
+        "position": 41
+      },
+      "S2": {
+        "label": "S2",
+        "desc": "Sfc. Wind (2m)",
+        "file": "sfcwind0",
+        "pinned": false,
+        "position": 42
+      },
+      "REP": {
+        "label": "19",
+        "desc": "Repository",
+        "pinned": false,
+        "position": 43,
+        "fixed": false,
+        "action": "FLIPREP"
+      }
     }
   },
   "urls": {

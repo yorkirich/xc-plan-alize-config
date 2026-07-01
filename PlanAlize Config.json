@@ -259,6 +259,21 @@
   "rasp": {
     "defaultRepository": "cdn19",
     "defaultResolution": "UK2",
+    "cycleResolutions": [
+      "UK2",
+      "UK4",
+      "UK12",
+      "UKN1",
+      "UKS1",
+      "UKGM",
+      "UKGW1"
+    ],
+    "todayOnlyResolutions": [
+      "UKN1",
+      "UKS1",
+      "UKGM",
+      "UKGW1"
+    ],
     "bounds": {
       "UK12": [
         [

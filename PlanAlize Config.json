@@ -688,5 +688,18 @@
     "airspaceMirror": "https://raw.githubusercontent.com/yorkirich/Mirror-of-XContest-UK-Airspace-NOTAMs/refs/heads/main",
     "siteData": "https://raw.githubusercontent.com/yorkirich/Paragliding-Sites/main/Worldwide%20Paragliding%20Sites.yaml",
     "raspArchiveBase": "https://rasp-uk-archive.img-store.org/Archive"
+  },
+  "features": {
+    "showSitesButton": true,
+    "showSettingsButton": true,
+    "showAirspaceButton": true,
+    "planDialog": {
+      "title": "PLAN ROUTE",
+      "showSiteSelector": true,
+      "showForecastModel": true,
+      "showDownwindButton": true,
+      "showDistanceSelector": true,
+      "showTriangleButton": true
+    }
   }
 }

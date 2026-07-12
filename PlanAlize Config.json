@@ -451,7 +451,7 @@
         "label": "R",
         "desc": "Rain",
         "file": "rain1",
-        "pinned": true,
+        "pinned": false,
         "position": 10
       },
       "T": {

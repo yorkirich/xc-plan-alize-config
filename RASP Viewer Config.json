@@ -116,9 +116,39 @@
     "fillColour": "red",
     "states": ["A", "A5", "A4"],
     "filterSettings": {
-      "types": { "ATZ": true, "CTA": true, "CTR": true, "D": true, "D_OTHER": true, "OTHER": false, "P": true, "R": true, "TMA": true },
-      "classes": { "A": true, "C": true, "D": true, "E": true, "G": true, "N/A": false },
-      "localtypes": { "DZ": true, "GLIDER": false, "GVS": false, "HIRTA": false, "ILS": false, "LASER": false, "MATZ": true, "N/A": true, "NOATZ": true, "RMZ": true, "TMZ": true, "UL": false }
+      "types": {
+        "ATZ":    { "display": true,  "infringement": true  },
+        "CTA":    { "display": true,  "infringement": true  },
+        "CTR":    { "display": true,  "infringement": true  },
+        "D":      { "display": true,  "infringement": true  },
+        "D_OTHER":{ "display": true,  "infringement": true  },
+        "OTHER":  { "display": false, "infringement": false },
+        "P":      { "display": true,  "infringement": true  },
+        "R":      { "display": true,  "infringement": true  },
+        "TMA":    { "display": true,  "infringement": true  }
+      },
+      "classes": {
+        "A":   { "display": true,  "infringement": true  },
+        "C":   { "display": true,  "infringement": true  },
+        "D":   { "display": true,  "infringement": true  },
+        "E":   { "display": true,  "infringement": true  },
+        "G":   { "display": true,  "infringement": true  },
+        "N/A": { "display": false, "infringement": false }
+      },
+      "localtypes": {
+        "DZ":    { "display": true,  "infringement": true  },
+        "GLIDER":{ "display": false, "infringement": false },
+        "GVS":   { "display": false, "infringement": false },
+        "HIRTA": { "display": false, "infringement": false },
+        "ILS":   { "display": false, "infringement": false },
+        "LASER": { "display": false, "infringement": false },
+        "MATZ":  { "display": true,  "infringement": true  },
+        "N/A":   { "display": true,  "infringement": true  },
+        "NOATZ": { "display": true,  "infringement": true  },
+        "RMZ":   { "display": true,  "infringement": true  },
+        "TMZ":   { "display": true,  "infringement": true  },
+        "UL":    { "display": false, "infringement": false }
+      }
     }
   },
   "rasp": {

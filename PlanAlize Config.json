@@ -1,5 +1,6 @@
 {
   "appSettings": {
+    "appName": "XC Plan & Analyse",
     "trimAirspeed": 37,
     "intensityExponent": 2.0,
     "planAccelerator": 70,

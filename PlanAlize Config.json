@@ -30,11 +30,6 @@
       "filterThreshold": 10000,
       "fillOpacityDefault": 0.4,
       "fillColour": "#ff0000",
-      "states": [
-        "A",
-        "A5",
-        "A4"
-      ],
       "filterSettings": {
         "types": {
           "ATZ":    { "display": true,  "infringement": true  },
@@ -411,33 +406,26 @@
         "pinned": true,
         "position": 4
       },
-      "C": {
-        "label": "C",
-        "desc": "Cumulus Cloudbase",
-        "file": "zsfclclmask",
-        "pinned": true,
-        "position": 5
-      },
       "N": {
         "label": "N",
         "desc": "Normalised Surface Solar Radiation",
         "file": "sfcsunpct",
         "pinned": true,
-        "position": 6
+        "position": 5
       },
       "B": {
         "label": "B",
         "desc": "Convergence",
         "file": "wblmaxmin",
         "pinned": true,
-        "position": 7
+        "position": 6
       },
       " ": {
         "label": " ",
         "desc": "no overlay",
         "file": "none",
         "pinned": true,
-        "position": 8,
+        "position": 7,
         "fixed": true
       },
       "...": {
@@ -445,8 +433,15 @@
         "desc": "more layers",
         "file": "none",
         "pinned": true,
-        "position": 9,
+        "position": 8,
         "fixed": true
+      },
+      "C": {
+        "label": "C",
+        "desc": "Cumulus Cloudbase",
+        "file": "zsfclclmask",
+        "pinned": false,
+        "position": 9
       },
       "R": {
         "label": "R",

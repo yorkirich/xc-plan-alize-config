@@ -1,7 +1,7 @@
 {
   "appSettings": {
     "appName": "RASP Viewer",
-    "appVersion": "0.03.06",
+    "appVersion": "0.03.07",
     "trimAirspeed": 38,
     "planAccelerator": 70,
     "initialOverlayOpacity": 0.5,

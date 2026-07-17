@@ -2,7 +2,6 @@
   "appSettings": {
     "appName": "RASP Viewer",
     "appVersion": "0.03.04",
-    "enableLongPressDialog": false,
     "trimAirspeed": 38,
     "planAccelerator": 70,
     "initialOverlayOpacity": 0.5,

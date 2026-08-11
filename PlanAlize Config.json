@@ -124,6 +124,15 @@
           "subdomains": "abcd",
           "maxZoom": 20
         }
+      },
+      {
+        "id": "esri_satellite",
+        "label": "Satellite",
+        "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        "options": {
+          "attribution": "Tiles &copy; Esri &mdash; Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP",
+          "maxZoom": 19
+        }
       }
     ]
   },

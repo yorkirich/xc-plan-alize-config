@@ -10,6 +10,7 @@
     "defaultCountry": "UK",
     "airspaceFileRetention": 30,
     "triangleAssistantDistance": "100",
+    "triangleSpeedFactor": 85,
     "overlayTransition": "block",
     "maxVerticalSpeedThreshold": 50,
     "maxSimultaneousReplay": 10,

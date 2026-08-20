@@ -15,6 +15,7 @@
     "maxVerticalSpeedThreshold": 50,
     "maxSimultaneousReplay": 10,
     "maxCacheSize": 25,
+    "swTileCacheMaxEntries": 300,
     "weatherCacheAgeThresholdSeconds": 3600,
     "lowAltitudeThresholdM": 100,
     "windAmberThreshold": 20,
@@ -28,7 +29,7 @@
     },
     "airspace": {
       "hideThreshold": 5000,
-      "filterThreshold": 10000,
+      "filterThreshold": 20000,
       "fillOpacityDefault": 0.4,
       "fillColour": "#ff0000",
       "filterSettings": {

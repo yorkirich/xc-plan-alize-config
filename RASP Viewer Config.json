@@ -17,7 +17,8 @@
     "maxVerticalSpeedThreshold": 50,
     "maxSimultaneousReplay": 10,
     "maxCacheSize": 25,
-    "currentUnits": { 
+    "swTileCacheMaxEntries": 300,
+    "currentUnits": {
       "distance": "km", 
       "speed": "kmh", 
       "altitude": "ft", 
@@ -111,7 +112,7 @@
   },
   "airspace": {
     "hideThreshold": 5000,
-    "filterThreshold": 10000,
+    "filterThreshold": 20000,
     "fillOpacityDefault": 0.4,
     "fillColour": "red",
     "states": ["A", "A5", "A4"],

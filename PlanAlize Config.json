@@ -230,6 +230,12 @@
         "includeInAverage": false
       },
       {
+        "id": "700",
+        "label": "700mb",
+        "isDefault": false,
+        "includeInAverage": false
+      },
+      {
         "id": "750",
         "label": "750mb",
         "isDefault": false,

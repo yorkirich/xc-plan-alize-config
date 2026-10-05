@@ -201,6 +201,301 @@
           "duration": 4.0
         }
       ]
+    },
+    "BR": {
+      "label": "Brazil",
+      "monthlyDefaults": [
+        {
+          "month": "Jan",
+          "start": "06:00",
+          "duration": 12
+        },
+        {
+          "month": "Feb",
+          "start": "06:00",
+          "duration": 12
+        },
+        {
+          "month": "Mar",
+          "start": "06:00",
+          "duration": 12
+        },
+        {
+          "month": "Apr",
+          "start": "06:00",
+          "duration": 12
+        },
+        {
+          "month": "May",
+          "start": "06:00",
+          "duration": 12
+        },
+        {
+          "month": "Jun",
+          "start": "06:00",
+          "duration": 12
+        },
+        {
+          "month": "Jul",
+          "start": "06:00",
+          "duration": 12
+        },
+        {
+          "month": "Aug",
+          "start": "06:00",
+          "duration": 12
+        },
+        {
+          "month": "Sep",
+          "start": "06:00",
+          "duration": 12
+        },
+        {
+          "month": "Oct",
+          "start": "06:00",
+          "duration": 12
+        },
+        {
+          "month": "Nov",
+          "start": "06:00",
+          "duration": 12
+        },
+        {
+          "month": "Dec",
+          "start": "06:00",
+          "duration": 12
+        }
+      ],
+      "monthlyHourlyProfiles": [
+        {
+          "month": "Jan",
+          "rows": [
+            { "hour": 0, "minAltitudeM": 300, "maxAltitudeM": 500, "thermalPct": 20 },
+            { "hour": 1, "minAltitudeM": 462, "maxAltitudeM": 682, "thermalPct": 41 },
+            { "hour": 2, "minAltitudeM": 541, "maxAltitudeM": 1171, "thermalPct": 47 },
+            { "hour": 3, "minAltitudeM": 578, "maxAltitudeM": 1426, "thermalPct": 69 },
+            { "hour": 4, "minAltitudeM": 763, "maxAltitudeM": 1652, "thermalPct": 73 },
+            { "hour": 5, "minAltitudeM": 847, "maxAltitudeM": 1842, "thermalPct": 78 },
+            { "hour": 6, "minAltitudeM": 901, "maxAltitudeM": 2004, "thermalPct": 90 },
+            { "hour": 7, "minAltitudeM": 1071, "maxAltitudeM": 2212, "thermalPct": 91 },
+            { "hour": 8, "minAltitudeM": 1175, "maxAltitudeM": 2435, "thermalPct": 93 },
+            { "hour": 9, "minAltitudeM": 1352, "maxAltitudeM": 2676, "thermalPct": 100 },
+            { "hour": 10, "minAltitudeM": 1280, "maxAltitudeM": 2452, "thermalPct": 83 },
+            { "hour": 11, "minAltitudeM": 1014, "maxAltitudeM": 2363, "thermalPct": 47 },
+            { "hour": 12, "minAltitudeM": 300, "maxAltitudeM": 1537, "thermalPct": 24 },
+            { "hour": 13, "minAltitudeM": 166, "maxAltitudeM": 1000, "thermalPct": 10 }
+          ]
+        },
+        {
+          "month": "Feb",
+          "rows": [
+            { "hour": 0, "minAltitudeM": 300, "maxAltitudeM": 500, "thermalPct": 20 },
+            { "hour": 1, "minAltitudeM": 462, "maxAltitudeM": 682, "thermalPct": 41 },
+            { "hour": 2, "minAltitudeM": 541, "maxAltitudeM": 1171, "thermalPct": 47 },
+            { "hour": 3, "minAltitudeM": 578, "maxAltitudeM": 1426, "thermalPct": 69 },
+            { "hour": 4, "minAltitudeM": 763, "maxAltitudeM": 1652, "thermalPct": 73 },
+            { "hour": 5, "minAltitudeM": 847, "maxAltitudeM": 1842, "thermalPct": 78 },
+            { "hour": 6, "minAltitudeM": 901, "maxAltitudeM": 2004, "thermalPct": 90 },
+            { "hour": 7, "minAltitudeM": 1071, "maxAltitudeM": 2212, "thermalPct": 91 },
+            { "hour": 8, "minAltitudeM": 1175, "maxAltitudeM": 2435, "thermalPct": 93 },
+            { "hour": 9, "minAltitudeM": 1352, "maxAltitudeM": 2676, "thermalPct": 100 },
+            { "hour": 10, "minAltitudeM": 1280, "maxAltitudeM": 2452, "thermalPct": 83 },
+            { "hour": 11, "minAltitudeM": 1014, "maxAltitudeM": 2363, "thermalPct": 47 },
+            { "hour": 12, "minAltitudeM": 300, "maxAltitudeM": 1537, "thermalPct": 24 },
+            { "hour": 13, "minAltitudeM": 166, "maxAltitudeM": 1000, "thermalPct": 10 }
+          ]
+        },
+        {
+          "month": "Mar",
+          "rows": [
+            { "hour": 0, "minAltitudeM": 300, "maxAltitudeM": 500, "thermalPct": 20 },
+            { "hour": 1, "minAltitudeM": 462, "maxAltitudeM": 682, "thermalPct": 41 },
+            { "hour": 2, "minAltitudeM": 541, "maxAltitudeM": 1171, "thermalPct": 47 },
+            { "hour": 3, "minAltitudeM": 578, "maxAltitudeM": 1426, "thermalPct": 69 },
+            { "hour": 4, "minAltitudeM": 763, "maxAltitudeM": 1652, "thermalPct": 73 },
+            { "hour": 5, "minAltitudeM": 847, "maxAltitudeM": 1842, "thermalPct": 78 },
+            { "hour": 6, "minAltitudeM": 901, "maxAltitudeM": 2004, "thermalPct": 90 },
+            { "hour": 7, "minAltitudeM": 1071, "maxAltitudeM": 2212, "thermalPct": 91 },
+            { "hour": 8, "minAltitudeM": 1175, "maxAltitudeM": 2435, "thermalPct": 93 },
+            { "hour": 9, "minAltitudeM": 1352, "maxAltitudeM": 2676, "thermalPct": 100 },
+            { "hour": 10, "minAltitudeM": 1280, "maxAltitudeM": 2452, "thermalPct": 83 },
+            { "hour": 11, "minAltitudeM": 1014, "maxAltitudeM": 2363, "thermalPct": 47 },
+            { "hour": 12, "minAltitudeM": 300, "maxAltitudeM": 1537, "thermalPct": 24 },
+            { "hour": 13, "minAltitudeM": 166, "maxAltitudeM": 1000, "thermalPct": 10 }
+          ]
+        },
+        {
+          "month": "Apr",
+          "rows": [
+            { "hour": 0, "minAltitudeM": 300, "maxAltitudeM": 500, "thermalPct": 20 },
+            { "hour": 1, "minAltitudeM": 462, "maxAltitudeM": 682, "thermalPct": 41 },
+            { "hour": 2, "minAltitudeM": 541, "maxAltitudeM": 1171, "thermalPct": 47 },
+            { "hour": 3, "minAltitudeM": 578, "maxAltitudeM": 1426, "thermalPct": 69 },
+            { "hour": 4, "minAltitudeM": 763, "maxAltitudeM": 1652, "thermalPct": 73 },
+            { "hour": 5, "minAltitudeM": 847, "maxAltitudeM": 1842, "thermalPct": 78 },
+            { "hour": 6, "minAltitudeM": 901, "maxAltitudeM": 2004, "thermalPct": 90 },
+            { "hour": 7, "minAltitudeM": 1071, "maxAltitudeM": 2212, "thermalPct": 91 },
+            { "hour": 8, "minAltitudeM": 1175, "maxAltitudeM": 2435, "thermalPct": 93 },
+            { "hour": 9, "minAltitudeM": 1352, "maxAltitudeM": 2676, "thermalPct": 100 },
+            { "hour": 10, "minAltitudeM": 1280, "maxAltitudeM": 2452, "thermalPct": 83 },
+            { "hour": 11, "minAltitudeM": 1014, "maxAltitudeM": 2363, "thermalPct": 47 },
+            { "hour": 12, "minAltitudeM": 300, "maxAltitudeM": 1537, "thermalPct": 24 },
+            { "hour": 13, "minAltitudeM": 166, "maxAltitudeM": 1000, "thermalPct": 10 }
+          ]
+        },
+        {
+          "month": "May",
+          "rows": [
+            { "hour": 0, "minAltitudeM": 300, "maxAltitudeM": 500, "thermalPct": 20 },
+            { "hour": 1, "minAltitudeM": 462, "maxAltitudeM": 682, "thermalPct": 41 },
+            { "hour": 2, "minAltitudeM": 541, "maxAltitudeM": 1171, "thermalPct": 47 },
+            { "hour": 3, "minAltitudeM": 578, "maxAltitudeM": 1426, "thermalPct": 69 },
+            { "hour": 4, "minAltitudeM": 763, "maxAltitudeM": 1652, "thermalPct": 73 },
+            { "hour": 5, "minAltitudeM": 847, "maxAltitudeM": 1842, "thermalPct": 78 },
+            { "hour": 6, "minAltitudeM": 901, "maxAltitudeM": 2004, "thermalPct": 90 },
+            { "hour": 7, "minAltitudeM": 1071, "maxAltitudeM": 2212, "thermalPct": 91 },
+            { "hour": 8, "minAltitudeM": 1175, "maxAltitudeM": 2435, "thermalPct": 93 },
+            { "hour": 9, "minAltitudeM": 1352, "maxAltitudeM": 2676, "thermalPct": 100 },
+            { "hour": 10, "minAltitudeM": 1280, "maxAltitudeM": 2452, "thermalPct": 83 },
+            { "hour": 11, "minAltitudeM": 1014, "maxAltitudeM": 2363, "thermalPct": 47 },
+            { "hour": 12, "minAltitudeM": 300, "maxAltitudeM": 1537, "thermalPct": 24 },
+            { "hour": 13, "minAltitudeM": 166, "maxAltitudeM": 1000, "thermalPct": 10 }
+          ]
+        },
+        {
+          "month": "Jun",
+          "rows": [
+            { "hour": 0, "minAltitudeM": 300, "maxAltitudeM": 500, "thermalPct": 20 },
+            { "hour": 1, "minAltitudeM": 462, "maxAltitudeM": 682, "thermalPct": 41 },
+            { "hour": 2, "minAltitudeM": 541, "maxAltitudeM": 1171, "thermalPct": 47 },
+            { "hour": 3, "minAltitudeM": 578, "maxAltitudeM": 1426, "thermalPct": 69 },
+            { "hour": 4, "minAltitudeM": 763, "maxAltitudeM": 1652, "thermalPct": 73 },
+            { "hour": 5, "minAltitudeM": 847, "maxAltitudeM": 1842, "thermalPct": 78 },
+            { "hour": 6, "minAltitudeM": 901, "maxAltitudeM": 2004, "thermalPct": 90 },
+            { "hour": 7, "minAltitudeM": 1071, "maxAltitudeM": 2212, "thermalPct": 91 },
+            { "hour": 8, "minAltitudeM": 1175, "maxAltitudeM": 2435, "thermalPct": 93 },
+            { "hour": 9, "minAltitudeM": 1352, "maxAltitudeM": 2676, "thermalPct": 100 },
+            { "hour": 10, "minAltitudeM": 1280, "maxAltitudeM": 2452, "thermalPct": 83 },
+            { "hour": 11, "minAltitudeM": 1014, "maxAltitudeM": 2363, "thermalPct": 47 },
+            { "hour": 12, "minAltitudeM": 300, "maxAltitudeM": 1537, "thermalPct": 24 },
+            { "hour": 13, "minAltitudeM": 166, "maxAltitudeM": 1000, "thermalPct": 10 }
+          ]
+        },
+        {
+          "month": "Jul",
+          "rows": [
+            { "hour": 0, "minAltitudeM": 300, "maxAltitudeM": 500, "thermalPct": 20 },
+            { "hour": 1, "minAltitudeM": 462, "maxAltitudeM": 682, "thermalPct": 41 },
+            { "hour": 2, "minAltitudeM": 541, "maxAltitudeM": 1171, "thermalPct": 47 },
+            { "hour": 3, "minAltitudeM": 578, "maxAltitudeM": 1426, "thermalPct": 69 },
+            { "hour": 4, "minAltitudeM": 763, "maxAltitudeM": 1652, "thermalPct": 73 },
+            { "hour": 5, "minAltitudeM": 847, "maxAltitudeM": 1842, "thermalPct": 78 },
+            { "hour": 6, "minAltitudeM": 901, "maxAltitudeM": 2004, "thermalPct": 90 },
+            { "hour": 7, "minAltitudeM": 1071, "maxAltitudeM": 2212, "thermalPct": 91 },
+            { "hour": 8, "minAltitudeM": 1175, "maxAltitudeM": 2435, "thermalPct": 93 },
+            { "hour": 9, "minAltitudeM": 1352, "maxAltitudeM": 2676, "thermalPct": 100 },
+            { "hour": 10, "minAltitudeM": 1280, "maxAltitudeM": 2452, "thermalPct": 83 },
+            { "hour": 11, "minAltitudeM": 1014, "maxAltitudeM": 2363, "thermalPct": 47 },
+            { "hour": 12, "minAltitudeM": 300, "maxAltitudeM": 1537, "thermalPct": 24 },
+            { "hour": 13, "minAltitudeM": 166, "maxAltitudeM": 1000, "thermalPct": 10 }
+          ]
+        },
+        {
+          "month": "Aug",
+          "rows": [
+            { "hour": 0, "minAltitudeM": 300, "maxAltitudeM": 500, "thermalPct": 20 },
+            { "hour": 1, "minAltitudeM": 462, "maxAltitudeM": 682, "thermalPct": 41 },
+            { "hour": 2, "minAltitudeM": 541, "maxAltitudeM": 1171, "thermalPct": 47 },
+            { "hour": 3, "minAltitudeM": 578, "maxAltitudeM": 1426, "thermalPct": 69 },
+            { "hour": 4, "minAltitudeM": 763, "maxAltitudeM": 1652, "thermalPct": 73 },
+            { "hour": 5, "minAltitudeM": 847, "maxAltitudeM": 1842, "thermalPct": 78 },
+            { "hour": 6, "minAltitudeM": 901, "maxAltitudeM": 2004, "thermalPct": 90 },
+            { "hour": 7, "minAltitudeM": 1071, "maxAltitudeM": 2212, "thermalPct": 91 },
+            { "hour": 8, "minAltitudeM": 1175, "maxAltitudeM": 2435, "thermalPct": 93 },
+            { "hour": 9, "minAltitudeM": 1352, "maxAltitudeM": 2676, "thermalPct": 100 },
+            { "hour": 10, "minAltitudeM": 1280, "maxAltitudeM": 2452, "thermalPct": 83 },
+            { "hour": 11, "minAltitudeM": 1014, "maxAltitudeM": 2363, "thermalPct": 47 },
+            { "hour": 12, "minAltitudeM": 300, "maxAltitudeM": 1537, "thermalPct": 24 },
+            { "hour": 13, "minAltitudeM": 166, "maxAltitudeM": 1000, "thermalPct": 10 }
+          ]
+        },
+        {
+          "month": "Sep",
+          "rows": [
+            { "hour": 0, "minAltitudeM": 300, "maxAltitudeM": 500, "thermalPct": 20 },
+            { "hour": 1, "minAltitudeM": 462, "maxAltitudeM": 682, "thermalPct": 41 },
+            { "hour": 2, "minAltitudeM": 541, "maxAltitudeM": 1171, "thermalPct": 47 },
+            { "hour": 3, "minAltitudeM": 578, "maxAltitudeM": 1426, "thermalPct": 69 },
+            { "hour": 4, "minAltitudeM": 763, "maxAltitudeM": 1652, "thermalPct": 73 },
+            { "hour": 5, "minAltitudeM": 847, "maxAltitudeM": 1842, "thermalPct": 78 },
+            { "hour": 6, "minAltitudeM": 901, "maxAltitudeM": 2004, "thermalPct": 90 },
+            { "hour": 7, "minAltitudeM": 1071, "maxAltitudeM": 2212, "thermalPct": 91 },
+            { "hour": 8, "minAltitudeM": 1175, "maxAltitudeM": 2435, "thermalPct": 93 },
+            { "hour": 9, "minAltitudeM": 1352, "maxAltitudeM": 2676, "thermalPct": 100 },
+            { "hour": 10, "minAltitudeM": 1280, "maxAltitudeM": 2452, "thermalPct": 83 },
+            { "hour": 11, "minAltitudeM": 1014, "maxAltitudeM": 2363, "thermalPct": 47 },
+            { "hour": 12, "minAltitudeM": 300, "maxAltitudeM": 1537, "thermalPct": 24 },
+            { "hour": 13, "minAltitudeM": 166, "maxAltitudeM": 1000, "thermalPct": 10 }
+          ]
+        },
+        {
+          "month": "Oct",
+          "rows": [
+            { "hour": 0, "minAltitudeM": 300, "maxAltitudeM": 500, "thermalPct": 20 },
+            { "hour": 1, "minAltitudeM": 462, "maxAltitudeM": 682, "thermalPct": 41 },
+            { "hour": 2, "minAltitudeM": 541, "maxAltitudeM": 1171, "thermalPct": 47 },
+            { "hour": 3, "minAltitudeM": 578, "maxAltitudeM": 1426, "thermalPct": 69 },
+            { "hour": 4, "minAltitudeM": 763, "maxAltitudeM": 1652, "thermalPct": 73 },
+            { "hour": 5, "minAltitudeM": 847, "maxAltitudeM": 1842, "thermalPct": 78 },
+            { "hour": 6, "minAltitudeM": 901, "maxAltitudeM": 2004, "thermalPct": 90 },
+            { "hour": 7, "minAltitudeM": 1071, "maxAltitudeM": 2212, "thermalPct": 91 },
+            { "hour": 8, "minAltitudeM": 1175, "maxAltitudeM": 2435, "thermalPct": 93 },
+            { "hour": 9, "minAltitudeM": 1352, "maxAltitudeM": 2676, "thermalPct": 100 },
+            { "hour": 10, "minAltitudeM": 1280, "maxAltitudeM": 2452, "thermalPct": 83 },
+            { "hour": 11, "minAltitudeM": 1014, "maxAltitudeM": 2363, "thermalPct": 47 },
+            { "hour": 12, "minAltitudeM": 300, "maxAltitudeM": 1537, "thermalPct": 24 },
+            { "hour": 13, "minAltitudeM": 166, "maxAltitudeM": 1000, "thermalPct": 10 }
+          ]
+        },
+        {
+          "month": "Nov",
+          "rows": [
+            { "hour": 0, "minAltitudeM": 300, "maxAltitudeM": 500, "thermalPct": 20 },
+            { "hour": 1, "minAltitudeM": 462, "maxAltitudeM": 682, "thermalPct": 41 },
+            { "hour": 2, "minAltitudeM": 541, "maxAltitudeM": 1171, "thermalPct": 47 },
+            { "hour": 3, "minAltitudeM": 578, "maxAltitudeM": 1426, "thermalPct": 69 },
+            { "hour": 4, "minAltitudeM": 763, "maxAltitudeM": 1652, "thermalPct": 73 },
+            { "hour": 5, "minAltitudeM": 847, "maxAltitudeM": 1842, "thermalPct": 78 },
+            { "hour": 6, "minAltitudeM": 901, "maxAltitudeM": 2004, "thermalPct": 90 },
+            { "hour": 7, "minAltitudeM": 1071, "maxAltitudeM": 2212, "thermalPct": 91 },
+            { "hour": 8, "minAltitudeM": 1175, "maxAltitudeM": 2435, "thermalPct": 93 },
+            { "hour": 9, "minAltitudeM": 1352, "maxAltitudeM": 2676, "thermalPct": 100 },
+            { "hour": 10, "minAltitudeM": 1280, "maxAltitudeM": 2452, "thermalPct": 83 },
+            { "hour": 11, "minAltitudeM": 1014, "maxAltitudeM": 2363, "thermalPct": 47 },
+            { "hour": 12, "minAltitudeM": 300, "maxAltitudeM": 1537, "thermalPct": 24 },
+            { "hour": 13, "minAltitudeM": 166, "maxAltitudeM": 1000, "thermalPct": 10 }
+          ]
+        },
+        {
+          "month": "Dec",
+          "rows": [
+            { "hour": 0, "minAltitudeM": 300, "maxAltitudeM": 500, "thermalPct": 20 },
+            { "hour": 1, "minAltitudeM": 462, "maxAltitudeM": 682, "thermalPct": 41 },
+            { "hour": 2, "minAltitudeM": 541, "maxAltitudeM": 1171, "thermalPct": 47 },
+            { "hour": 3, "minAltitudeM": 578, "maxAltitudeM": 1426, "thermalPct": 69 },
+            { "hour": 4, "minAltitudeM": 763, "maxAltitudeM": 1652, "thermalPct": 73 },
+            { "hour": 5, "minAltitudeM": 847, "maxAltitudeM": 1842, "thermalPct": 78 },
+            { "hour": 6, "minAltitudeM": 901, "maxAltitudeM": 2004, "thermalPct": 90 },
+            { "hour": 7, "minAltitudeM": 1071, "maxAltitudeM": 2212, "thermalPct": 91 },
+            { "hour": 8, "minAltitudeM": 1175, "maxAltitudeM": 2435, "thermalPct": 93 },
+            { "hour": 9, "minAltitudeM": 1352, "maxAltitudeM": 2676, "thermalPct": 100 },
+            { "hour": 10, "minAltitudeM": 1280, "maxAltitudeM": 2452, "thermalPct": 83 },
+            { "hour": 11, "minAltitudeM": 1014, "maxAltitudeM": 2363, "thermalPct": 47 },
+            { "hour": 12, "minAltitudeM": 300, "maxAltitudeM": 1537, "thermalPct": 24 },
+            { "hour": 13, "minAltitudeM": 166, "maxAltitudeM": 1000, "thermalPct": 10 }
+          ]
+        }
+      ]
     }
   },
   "weather": {

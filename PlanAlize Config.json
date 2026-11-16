@@ -7,6 +7,7 @@
     "initialOverlayOpacity": 0.5,
     "routeVisualMode": 0,
     "railStationAmberThreshold": 10000,
+    "displayRailStations": false,
     "defaultCountry": "UK",
     "airspaceFileRetention": 30,
     "triangleAssistantDistance": "100",
